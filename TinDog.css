@@ -1,0 +1,188 @@
+body {
+    text-align: center;
+}
+
+h1  {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1f1f1f;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+#title  {
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+
+#features{
+    padding: 7% 15%;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    padding-bottom: 0;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0 10% 5%;
+}
+
+#pricing {
+    padding: 8% 7%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 15%;
+}
+
+#footer{
+    padding: 5%;
+}
+
+.title {
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 2px 28px;
+    font-weight: bolder;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.iphone {
+    position: relative;
+}
+
+.iphoneimg {
+    position: absolute;
+    left: 10%;
+    width: 60%;
+    transform: rotate(25deg);
+    vertical-align: middle;
+}
+
+
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    margin: 5% 3% 5% 0;
+}
+
+.col-lg-4{
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+}
+
+.carousel-item {
+    padding: 8% 18%;
+}
+
+.testimonial-image {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+em{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.press-logo {
+    width: 200px;
+    padding: 15px;
+}
+
+.pricing-heading {
+    padding-bottom: 2%;
+}
+
+.card{
+    margin: 5%;
+}
+
+.footer_icons{
+    padding: 10px 15px 20px ;
+}
+
+@media (max-width: 991.5px) {
+    #title, #pricing{
+        text-align: center;
+    }
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+    .col-md-4 {
+        width: 80%;
+    }
+    .iphoneimg {
+        transform:rotate(0deg);
+        position: static;
+    }
+}
+
+@media (max-width: 490.5px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+    .card{
+        margin: 0%;
+    }
+}
